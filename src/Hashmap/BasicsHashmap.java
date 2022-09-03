@@ -48,8 +48,8 @@ while (it.hasNext()) {
 		 
 	}
 	//Iterrate hashmap using java 8 for each and lamada;
-	capitalmap.forEach(k,v) -> System.out.println("key="+k+"and value="+v);
-r
+	capitalmap.forEach((k,v) -> System.out.println("key="+k+"and value="+v));
+
 
 	
 	
